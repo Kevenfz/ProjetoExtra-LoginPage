@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@400;800&family=Titillium+Web:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcddf1e;
+    border-radius: 2px;
+}
+
+div img#img {
+    width: 85% ;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 65%;
+    height: 43rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #FFCDDF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.103);
+}
+
+.card-login h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 900 bold;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+p#text1 {
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.card-login h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 800 bold;
+    font-size: 50px;
+
+}
+
+.textfiled {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.textfiled input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.555);
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfiled ::placeholder {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.option {
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option input {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: -20%;
+    align-items: center;
+}
+
+.ultpart {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+button#bt1 {
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF81AE;
+    color: #fff;
+    padding: .8rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 900 bold;
+    font-size: 14pt;
+    cursor: pointer;
+
+}
+
+button#bt2 {
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+    background-color: #2e2e2e;
+    color: rgb(255, 255, 255);
+    padding: .8rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 900 bold;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+button#bt1:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.02);
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.781);
+}
+
+button#bt2:hover {
+    color: #FF81AE;
+    transform: scale(1.02);
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.781);
+}
